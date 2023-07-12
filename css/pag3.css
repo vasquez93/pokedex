@@ -1,0 +1,43 @@
+* {
+    font-family: sans-serif;
+}
+.container_div{
+    opacity: 0.6;
+}
+.container_text {
+    text-align: center;
+}
+
+.container_text h1 {
+
+    color: #353535;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.container_text p {
+    color: #5E5E5E;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.btn1{padding: 0.5rem;
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+    border-radius: 100px;
+    border: none;
+    background-color: #F22539;
+}
+@media (max-width: 540px) {
+    .container_text h1 {
+        font-size: 1.5rem;
+    }
+
+    .container_text p {
+        font-size: 0.8rem;
+    }
+    .btn1{
+        font-size: small;
+    }
+}

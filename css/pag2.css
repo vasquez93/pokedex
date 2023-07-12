@@ -1,0 +1,14 @@
+*{
+    margin: auto;
+    padding: auto;
+
+}
+.container-fluid{
+    display: flex;
+    padding-top: 40vh;
+    left: 40vw;
+}
+
+.img{
+    width: 10rem;
+}

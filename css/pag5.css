@@ -1,0 +1,48 @@
+.container_btn button {
+
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    color: white;
+    border-radius: 100px;
+    background-color: #F22539;
+}
+
+li.list-group-item{
+    color: #5E5E5E;
+}
+button.btn_all {
+    display: inline-block;
+    align-content: center;
+    background-color: #BFBFBF;
+}
+.modal-header img{
+    position: relative;
+    left: 30%;
+
+}
+
+.modal-header button{
+    position: absolute;
+    right: 0.1rem;
+    top: 0.2rem;
+}
+button.btn-primary{
+    
+    background-repeat: no-repeat;
+    border: none;
+    background-color: white;
+    width: 2.9rem;
+    height: 2.9rem;
+}
+
+button.btn-primary:hover{
+    background-color: white;
+    opacity: 0.6;
+}
+button.btn-secondary{
+    background-color: #F22539;
+}
+
+@media (min-width: 540px){
+
+}
