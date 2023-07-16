@@ -2,13 +2,13 @@
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
-    
+     
 
 }
 
 .body{
 
-    width: 95vw;
+   width: 95vw;
     margin: 0px;
 
 }
@@ -40,7 +40,8 @@
 
 @media (max-width: 992px){
     .row{
-        padding-top: 12rem;
+
+        padding-top: 1.5vh;
     }
     .img-container{
         width: 8rem;
@@ -48,6 +49,13 @@
         justify-content: center; 
 
     }
+
+        
+    .img-container img {
+        width: 100%;
+
+    }
+
     .h3{
         font-weight: 800;
     }
@@ -57,7 +65,12 @@
     text-align: center;
     color: #5E5E5E;
 
-}
+    }
+
+    button.btn_danger a{
+        font-size: small;
+    }
+
     .welcome{     
         display: inline-block;
         justify-content: center;
@@ -67,7 +80,7 @@
 
 @media (min-width:990px){
     .row{
-
+        
         align-items: center;
     }
 
@@ -75,7 +88,7 @@
         align-items: center;
         justify-content: center;
     }
-    
+
     
     .welcome{
         display: inline-block;

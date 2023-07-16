@@ -4,7 +4,15 @@
 .container_div{
     opacity: 0.6;
 }
+
+div.search{
+    left: 10%;
+    justify-content: center;
+    width: 68vw;
+}
+
 .container_text {
+    gap: 1rem;
     text-align: center;
 }
 
@@ -26,6 +34,15 @@
     font-weight: 600;
     color: white;
     border-radius: 100px;
+    border: none;
+    background-color: #F22539;
+}
+.btn2 {
+    padding: 1%;
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+    border-radius: 50px;
     border: none;
     background-color: #F22539;
 }

@@ -22,6 +22,14 @@
     padding: 2rem;
 }
 
+div.modal_cosumer{
+    margin-top: 6rem;
+}
+div.modal-header button{
+    top: 0.5rem;
+    width: 2rem;
+    background-size: 2rem;
+}
 .container_btn button {
 
     padding: 0.5rem 1rem;
@@ -45,6 +53,7 @@ button.btn_fav:hover {
         width: 40%;
         align-items: center;
     }
+
 }
 
 
